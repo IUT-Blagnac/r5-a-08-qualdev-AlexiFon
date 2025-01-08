@@ -27,4 +27,33 @@ Feature: Is it Friday yet?
 Image de l'exécution des tests :
 image::Images/TP1Test.png[]
 
-== TP2...
+== TP2
+
+Contenu du fichier Order.java : 
+
+
+package dojo;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Order {
+    String owner;
+    String target;
+    List<String> cocktails = new ArrayList<>();
+
+    public void declareOwner(String owner) {
+        this.owner = owner;
+    }
+
+    public void declareTarget(String target) {
+        this.target = target;
+    }
+
+    public List<String> getCocktails() {
+        return cocktails;
+    }
+}
+
+Image de l'exécution des tests :
+image::Images/TP2Test.png[]
