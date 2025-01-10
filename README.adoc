@@ -25,6 +25,7 @@ Feature: Is it Friday yet?
 
 
 Image de l'exécution des tests :
+
 image::Images/TP1Test.png[]
 
 == TP2
@@ -56,6 +57,7 @@ public class Order {
 }
 
 Image de l'exécution des tests :
+
 image::Images/TP2Test.png[]
 
 == TP3
